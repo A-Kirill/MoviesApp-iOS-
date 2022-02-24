@@ -23,9 +23,9 @@ The application uses a free unofficial kinopoisk.ru API that provides access to 
 ## Screenshots
 
 <p float="left">
-  <img src="MoviesApp/Resources/Screenshots/ScreenShot1.png" width="100" />
-  <img src="MoviesApp/Resources/Screenshots/ScreenShot2.png" width="100" /> 
-  <img src="MoviesApp/Resources/Screenshots/ScreenShot3.png" width="100" />
+  <img src="MoviesApp/Resources/Screenshots/ScreenShot1.png" width="200" />
+  <img src="MoviesApp/Resources/Screenshots/ScreenShot2.png" width="200" /> 
+  <img src="MoviesApp/Resources/Screenshots/ScreenShot3.png" width="200" />
 </p>
 
 
