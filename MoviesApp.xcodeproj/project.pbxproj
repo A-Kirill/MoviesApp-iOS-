@@ -33,6 +33,9 @@
 		84C2844127BFEDA200F089E1 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2844027BFEDA200F089E1 /* Appearance.swift */; };
 		84C2844927C3648B00F089E1 /* MoviesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2844827C3648B00F089E1 /* MoviesAppTests.swift */; };
 		84C2845D27C4B6AB00F089E1 /* MoviesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2845C27C4B6AB00F089E1 /* MoviesAppUITests.swift */; };
+		84C2846927C776D500F089E1 /* ScreenShot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C2846627C776D500F089E1 /* ScreenShot3.png */; };
+		84C2846A27C776D500F089E1 /* ScreenShot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C2846727C776D500F089E1 /* ScreenShot1.png */; };
+		84C2846B27C776D500F089E1 /* ScreenShot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C2846827C776D500F089E1 /* ScreenShot2.png */; };
 		84CF0EAB27B5321800A4911A /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF0EAA27B5321800A4911A /* MovieDetails.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +87,9 @@
 		84C2844827C3648B00F089E1 /* MoviesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppTests.swift; sourceTree = "<group>"; };
 		84C2845A27C4B6AB00F089E1 /* MoviesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2845C27C4B6AB00F089E1 /* MoviesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppUITests.swift; sourceTree = "<group>"; };
+		84C2846627C776D500F089E1 /* ScreenShot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot3.png; sourceTree = "<group>"; };
+		84C2846727C776D500F089E1 /* ScreenShot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot1.png; sourceTree = "<group>"; };
+		84C2846827C776D500F089E1 /* ScreenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot2.png; sourceTree = "<group>"; };
 		84CF0EAA27B5321800A4911A /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -214,6 +220,7 @@
 		84C2843627BFCAD700F089E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84C2846527C7751700F089E1 /* Screenshots */,
 				84678AB027B3923D00A4CA44 /* Assets.xcassets */,
 				84C2843727BFE1A300F089E1 /* Localizable.strings */,
 			);
@@ -234,6 +241,16 @@
 				84C2845C27C4B6AB00F089E1 /* MoviesAppUITests.swift */,
 			);
 			path = MoviesAppUITests;
+			sourceTree = "<group>";
+		};
+		84C2846527C7751700F089E1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				84C2846727C776D500F089E1 /* ScreenShot1.png */,
+				84C2846827C776D500F089E1 /* ScreenShot2.png */,
+				84C2846627C776D500F089E1 /* ScreenShot3.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,10 +358,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C2846B27C776D500F089E1 /* ScreenShot2.png in Resources */,
 				84C2842627BD238B00F089E1 /* Api-Info.plist in Resources */,
 				84C2843927BFE1A300F089E1 /* Localizable.strings in Resources */,
 				84678AB427B3923D00A4CA44 /* Preview Assets.xcassets in Resources */,
+				84C2846A27C776D500F089E1 /* ScreenShot1.png in Resources */,
 				84678AB127B3923D00A4CA44 /* Assets.xcassets in Resources */,
+				84C2846927C776D500F089E1 /* ScreenShot3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
